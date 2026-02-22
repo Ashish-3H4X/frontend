@@ -7,7 +7,7 @@ import Logos from '../component/Logos';
 import ExploreCourses from '../component/ExploreCourses';
 import Categories from '../component/Categories';
 import WhyChooseUs from '../component/WhyChooseUs'
-import Footer from '../component/footer';
+import Footer from '../component/Footer.jsx';
 import CardPage from '../component/CardPage';
 import { useNavigate } from 'react-router-dom';
 
