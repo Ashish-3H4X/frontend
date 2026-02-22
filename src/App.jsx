@@ -15,7 +15,6 @@ import CreateCousres from "./pages/Educator/CreateCousres.jsx";
 import getCreatorCourse from "../src/customHooks/getCreatorCourse.js";
 import { setUserData } from "./redux/userSlice.js";
 import EditCourse from "./pages/Educator/EditCourse.jsx";
-import LandingPage from "./pages/LandingPage.jsx";
 import AllCourses from "./pages/AllCourses.jsx";
 import CreateLecture from "./pages/Educator/CreateLecture.jsx";
 import EditLecture from "./pages/Educator/EditLecture.jsx";
@@ -49,7 +48,6 @@ const App = () => {
     <>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
         <Route
           path="/signup"
