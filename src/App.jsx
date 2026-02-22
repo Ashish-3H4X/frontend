@@ -48,10 +48,10 @@ const App = () => {
     <>
       <ToastContainer />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route
           path="/signup"
-          element={!userData ? <SignUp /> : <Navigate to="/home" />}
+          element={!userData ? <SignUp /> : <Navigate to="/" />}
         />
         <Route path="/login" element={<Login />} />
         <Route
