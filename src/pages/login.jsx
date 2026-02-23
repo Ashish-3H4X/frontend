@@ -65,8 +65,6 @@ try {
      }
    }
 
-
-
   return (
       <div className="bg-[#f3ebeb] w-[100vw] h-[100vh] flex items-center justify-center">
           <form className='w-[90%] md:w-200 h-150 bg-[white] shadow-xl rounded-2xl flex '  onClick={(e)=>{e.preventDefault()}} >
