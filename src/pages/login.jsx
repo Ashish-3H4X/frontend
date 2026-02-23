@@ -38,7 +38,7 @@ try {
    dispatch(setUserData(result.data))
    setLoading(false)
     toast.success("Login Succesfully")
-    navigate("/home")
+    navigate("/")
 
 } catch (error) {
    console.log(error.response.data);

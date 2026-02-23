@@ -48,7 +48,7 @@ const SignUp = () => {
 
        const result  = await axios.post(serverUrl + "/api/auth/googleauthsignup" ,{name,email,role} ,{withCredentials:true})
        dispatch(setUserData(result.data))
-               navigate("/home")
+               navigate("/")
                toast.success("Signup Succesfully")
      } catch (error) {
       console.log(error)
