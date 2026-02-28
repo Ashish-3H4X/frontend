@@ -367,8 +367,11 @@ useEffect(() => {
 
                 <video
                   src={selectedLecture.videoUrl}
-                  controls
-                  className="w-full h-full"
+                    controlsList="nodownload"
+                    disablePictureInPicture
+                     onContextMenu={(e) => e.preventDefault()}
+                    controls
+                    className="w-full h-full"
                 />
 
               ) : (
