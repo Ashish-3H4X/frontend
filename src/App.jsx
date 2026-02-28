@@ -133,16 +133,12 @@ const App = () => {
           }
         />
 
-  <Route
-          path="/viewcourse/:courseId"
-          element={
-            userData?.role === "educator" ? (
-              <ViewCourses />
-            ) : (
-              <Navigate to={"/signup"} />
-            )
-          }
-        />
+<Route
+  path="/viewcourse/:courseId"
+  element={
+    userData ? <ViewCourses /> : <Navigate to="/signup" />
+  }
+/>
         {/* Testing routes */}
 
         {/* <Route path="/dashboard" element={<Dashboard />} />
